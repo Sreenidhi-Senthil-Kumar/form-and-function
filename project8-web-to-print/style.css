@@ -1,0 +1,124 @@
+
+body {
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+    background-color: #F4EDE3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    font-family: Barriecito;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #341C11;
+
+
+}
+
+main {
+    display: flex;
+}
+
+#settings {
+    margin: 25px;
+    margin-left: 100px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#poster {
+    right:0;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    background-color: #8B4512;
+    position: relative;
+    width:500px;
+    height:700px;
+    margin-top: 10vh;
+    margin-right: 18vw;
+    
+}
+
+#poster-text {
+    text-align: left;
+    position: absolute;
+    
+    transform-origin: 0 0;
+    font-size: 24px;
+  font-family: "Galada", cursive;
+    color: #341C11;
+    font-size: 130px;
+font-style: normal;
+font-weight: 400;
+line-height: 0.8; 
+letter-spacing: 0.8;
+z-index: 1;
+left: 25px;
+top: 0;
+}
+
+#poster-image {
+    width: 300px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+#poster-image path{
+    fill: #F4EDE3;
+}
+button, select{
+    background-color:#341C11;
+    color: #F4EDE3;
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+    border-radius: 0;
+    padding: 9px;
+    border:none ;
+    outline:none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F4EDE3;
+    color: #341C11;
+    
+}
+
+@media print {
+
+    #poster{
+        print-color-adjust: exact;
+        margin: 110px;
+    }
+    #settings,
+    #print,
+    h4 {
+        display: none;
+   }
+
+}
+
+@media (max-width: 760px) {
+    main{
+        flex-direction: column;
+    }
+    #settings {
+        margin: 15px;
+    }
+    
+    #poster-text {
+        font-size: 100px;
+        font-family: "Galada", cursive;
+    }
+    #poster-image {
+        width: 200px;
+    }
+}   
