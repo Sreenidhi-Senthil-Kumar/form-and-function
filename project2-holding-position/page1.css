@@ -1,0 +1,166 @@
+.page {
+    background-color: #e4dcc8;
+    width: 100%;
+    min-width: 1728px;
+    min-height: 5163px;
+    position: relative;
+}
+
+.page .heading-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 1116px;
+    background-color: #2a3225;
+}
+
+.page .heading {
+    position: absolute;
+    top: 400px;
+    left: 76px;
+    width: 1442px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #fff6e0;
+    font-size: 200px;
+    letter-spacing: 0;
+    line-height: 250px;
+}
+
+.page .image-0 {
+    top: 1276px;
+    left: 719px;
+    width: 678px;
+    height: 509px;
+    aspect-ratio: 1.33;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-1 {
+    top: 1872px;
+    left: 215px;
+    width: 423px;
+    height: 523px;
+    aspect-ratio: 0.81;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-2 {
+    top: 2912px;
+    left: 1028px;
+    width: 532px;
+    height: 532px;
+    aspect-ratio: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-3 {
+    top: 1992px;
+    left: 981px;
+    width: 537px;
+    height: 534px;
+    aspect-ratio: 1.01;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-4 {
+    top: 2648px;
+    left: 340px;
+    width: 457px;
+    height: 483px;
+    aspect-ratio: 0.95;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-5 {
+    top: 3829px;
+    left: 1058px;
+    width: 535px;
+    height: 590px;
+    aspect-ratio: 0.91;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-6 {
+    top: 3507px;
+    left: 277px;
+    width: 520px;
+    height: 520px;
+    aspect-ratio: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .image-7 {
+    top: 4381px;
+    left: 313px;
+    width: 551px;
+    height: 551px;
+    aspect-ratio: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.page .bottombar {
+    position: absolute;
+    top: 5103px;
+    left: 0;
+    width: 1728px;
+    height: 60px;
+    background-color: #8b4512;
+}
+
+.page .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 60px;
+    background-color: #8b4512;
+}
+
+.page .content a{
+    top: -97px;
+    left: 1560px;
+    width: 143px;
+    position: fixed;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #e4dcc8;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 250px;
+    white-space: nowrap;
+    
+    border: none;
+    text-decoration: none;
+    
+}
+
+.page .home a{
+    top: -94px;
+    left: 22px;
+    width: 107px;
+    position: fixed;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #e4dcc8;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 250px;
+    white-space: nowrap;
+
+    border: none;
+    text-decoration: none;
+    
+    
+}
+
+

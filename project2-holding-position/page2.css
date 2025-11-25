@@ -1,0 +1,177 @@
+.page {
+    background-color: #e4dcc8;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1728px;
+    min-height: 5163px;
+    position: relative;
+}
+
+.page .headingbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 1116px;
+    background-color: #223854;
+}
+
+.page .heading {
+    position: absolute;
+    top: 497px;
+    left: 76px;
+    width: 1946px;
+    font-family: "Anton-Regular", Helvetica;
+    font-weight: 400;
+    color: #fff6e0;
+    font-size: 200px;
+    letter-spacing: 0;
+    line-height: 250px;
+}
+
+.page .formtext {
+    top: 1256px;
+    left: 932px;
+    width: 710px;
+    position: absolute;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #000000;
+    font-size: 96px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.page .text1 {
+    font-weight: 700;
+}
+
+.page .break {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.page .text2 {
+    font-family: "Space Mono", monospace;
+    font-size: 36px;
+}
+
+.page .funtiontext {
+    top: 2496px;
+    left: 128px;
+    width: 709px;
+    position: absolute;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #000000;
+    font-size: 96px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.page .rectanglearoundimage {
+    position: absolute;
+    top: 3950px;
+    left: 0;
+    width: 3284px;
+    height: 1017px;
+    background-color: #2a3225;
+}
+
+.page .image-0 {
+    left: 128px;
+    position: absolute;
+    top: 4098px;
+    width: 450px;
+    height: 722px;
+    object-fit: cover;
+}
+
+.page .image-1 {
+    left: 760px;
+    position: absolute;
+    top: 4098px;
+    width: 450px;
+    height: 722px;
+    object-fit: cover;
+}
+
+.page .image-2 {
+    left: 1392px;
+    position: absolute;
+    top: 4098px;
+    width: 450px;
+    height: 722px;
+    object-fit: cover;
+}
+
+.page .formimage {
+    position: absolute;
+    top: 1444px;
+    left: 94px;
+    width: 740px;
+    height: 926px;
+    aspect-ratio: 0.8;
+    object-fit: cover;
+}
+
+.page .funtionimage {
+    position: absolute;
+    top: 2645px;
+    left: 959px;
+    width: 683px;
+    height: 965px;
+    aspect-ratio: 0.71;
+}
+
+.page .bottombar {
+    position: absolute;
+    top: 5103px;
+    left: 0;
+    width: 1728px;
+    height: 60px;
+    background-color: #8b4512;
+}
+
+
+
+.page .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1728px;
+    height: 60px;
+    background-color: #8b4512;
+}
+
+.page .content a{
+    position: fixed;
+    top: -97px;
+    left: 1560px;
+    width: 143px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #e4dcc8;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 250px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.page .home a{
+    position: fixed;
+    top: -94px;
+    left: 22px;
+    width: 107px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #e4dcc8;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 250px;
+    white-space: nowrap;
+    text-decoration: none;
+}
